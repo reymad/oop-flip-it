@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<!--
+	jesús rey @jesusrey85
+    Memory tiles flipper
+-->
+<head>
+<meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="sty.css">
+
+<title>Flip it</title>
+
+</head>
+<body style="height:100%; width:100%;">
+<div id="mask" style="background:#ccc; opacity:.6; width:100%; height:100%; z-index:9999; position:absolute; top:0; left:0; display:none;"><button onClick="GAME.restart();">Volver a jugar</button></div>
+<div id="counter" style="text-align:center;color: orange; font-size:22px;">¡¡VAMOS!!</div>
+<div id="message" style="text-align:center;"></div>
+<div style="text-align:center;color: lightblue; font-size:18px;">Llevas <span id="countSuccess">0</span> aciertos de <span id="total"></span></div>
+<br>
+<div id="board" style="text-align:center; width: 525px; overflow: hidden; margin: 0 auto;"></div>
+
+<script src="game.js"></script>
+</body>
+
+</html>
