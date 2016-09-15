@@ -153,6 +153,8 @@ var GAME = {
     gameOver: false,
     start : function(d){
 
+        console.log('deployed');
+
         var d = d || document.getElementById('board');
 
         // Random
