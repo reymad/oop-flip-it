@@ -1,3 +1,4 @@
+//TEST
 const TIME =  1000;// 1 seg
 /* objeto */
 var Elem = function(props){
