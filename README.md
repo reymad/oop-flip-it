@@ -1,3 +1,4 @@
 oop-flip-it
 ===========
-Memory tiles game
+
+> Wanna [play](https://www.sharedacc.herokuapp.com/flipit)?
