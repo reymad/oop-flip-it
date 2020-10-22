@@ -1,4 +1,4 @@
 oop-flip-it
 ===========
 
-> Wanna [play](https://www.sharedacc.herokuapp.com/flipit)?
+> Wanna [play](https://sharedacc.herokuapp.com/flipit)?
