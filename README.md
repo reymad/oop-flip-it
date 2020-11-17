@@ -1,4 +1,4 @@
 oop-flip-it
 ===========
 
-> Wanna [play](https://sharedacc.herokuapp.com/flipit)?
+> Wanna [play](https://reymad.github.io/oop-flip-it/)?
